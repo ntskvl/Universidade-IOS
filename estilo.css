@@ -6,8 +6,9 @@ body{
 .box{
     background-color: #8764e8;
     margin: 0%;
-    opacity: 0.95;
+    opacity: 1;
     width: 100%;
+    
 }
 
 .box_cabecalho{
@@ -15,11 +16,13 @@ body{
     display: flex;
     height: 100px ;
     margin: 0px 15% 0 15%;
+    
 }
 
 .box_cabecalho-nav-ul{
     display: flex;
     list-style-type: none;
+    align-items: center;
 }
 
 .box_cabecalho-nav-ul-li{
@@ -47,16 +50,29 @@ h1{
 }
 .container_img{
     width: 35%;
+    margin: 20px;
 }
 
 h2{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    color: white;
 }
 
 .container_h3-p{
     font-weight: bold;
     align-items: center;
+    color: white;
+    margin: 20px;
+    font-size: 25px;
+  
+}
+
+.container_p{
+    color: white;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
 .map{
@@ -70,13 +86,30 @@ footer{
     margin: 0%;
     opacity: 0.95;
     width: 100%;
+    
 }
 
-.footer{
+.rodape{
     display: flex;
     justify-content: space-between;
 }
 
+.footer_p{
+    margin: 0 0 0 5%;
+}
+
+.rodape ul{
+   display: flex;
+   flex-direction: column;
+   margin: 0 0 0 50%;
+   align-items: center;
+   list-style-type: none;
+}
+
 .insta{
-    width: 2%;
+    width: 5%;
+}
+
+.copi{
+    text-align: center;
 }
